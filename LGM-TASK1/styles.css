@@ -1,0 +1,134 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Metropolis;
+  }
+  
+  header {
+  min-height: 300px;
+  
+      background-image: url("https://i0.wp.com/boingboing.net/wp-content/uploads/2018/05/cool-background1.png?fit=1&resize=620%2C4000&ssl=1");
+      background-position: center;
+      background-size: cover;
+      
+      
+  }
+  
+  footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #9E6D93;
+     position: fixed;
+      padding: 10px 5px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    
+  }
+  
+  footer div.name {
+      font-size: 20px;
+      color: #fff;
+      margin-left: 10px;
+  }
+  
+  footer div.icons {
+      display: flex;
+  }
+  
+  footer div.icons i {
+      margin: 0px 5px;
+      font-size: large;
+  }
+  
+  footer div.icons i:hover {
+      cursor: pointer;
+  }
+  
+  section.container {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div.todo {
+      width: 400px;
+      height: 450px;
+      position: relative;
+      bottom: 80px;
+  }
+  
+  section.container div.todo div:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 10px;
+      color: #fff;
+      font-size: larger;
+  }
+  
+  section.container div.todo div.items {
+      margin: 5px 10px;
+      height: 85%;
+      padding: 5px 10px;
+  }
+  
+  section.container div.todo div.items div.item {
+      display: flex;
+      align-items: center;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+  }
+  
+  div.todo div.items div.item input {
+      flex-basis: 90%;
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+  }
+  
+
+  ol li {
+    cursor: pointer;
+    position: relative;
+    padding: 7px 14px;
+    background: #f1f1f1;
+    font-size: 18px;
+    transition: 0.2s;
+    list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border:2px solid #9E6D93;
+  }
+  ol button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    height:100%;
+  }
+  button
+  {
+    padding: 5px;
+    width: 25%;
+    background-color: #C931A2;
+    color: #fff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+    border:2px solid #ddd;
+  }
+  ol button:hover {
+    background-color: white;
+    color: #C931A2;
+  }
+  
